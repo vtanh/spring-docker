@@ -8,9 +8,7 @@ node {
     }
 
     stage('Build jar') {
-           steps {
-                 sh 'mvn package'
-           }
+        sh 'mvn package'
     }
 
     stage('Build image') {
