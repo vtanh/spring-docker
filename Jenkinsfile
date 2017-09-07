@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("vtanh/spring-docker")
+        app = docker.build("anhvt/spring-docker")
     }
 
     stage('Test image') {
